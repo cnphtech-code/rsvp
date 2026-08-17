@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import React from "react"
-import heroImage from "./assets/hero.png";
+
 
 // ── Countdown hook ──────────────────────────────────────────────────────────
 function useCountdown(target: Date) {
@@ -822,15 +822,16 @@ function CoupleSection() {
           and a lifetime to celebrate together."
         </p>
         <img
-          src={heroImage}
+          src="/hero.png"
           alt="Wedding couple embracing"
           style={{
             width: "100%",
-            maxWidth: 340,
+            maxWidth: 350,
             height: 500,
             objectFit: "cover",
             borderRadius: 20,
             marginTop: 36,
+            marginLeft:15,
             boxShadow: "0 12px 40px rgba(61,90,54,0.18)",
             border: "4px solid rgba(255,255,255,0.8)",
           }}
