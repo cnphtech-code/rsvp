@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import React from "react"
-import heroImage from "./assets/hero.jpg";
+import heroImage from "./assets/hero.png";
 
 // ── Countdown hook ──────────────────────────────────────────────────────────
 function useCountdown(target: Date) {
