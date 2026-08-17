@@ -822,7 +822,7 @@ function CoupleSection() {
           and a lifetime to celebrate together."
         </p>
         <img
-          src="/hero.png"
+          src="/images/hero.png"
           alt="Wedding couple embracing"
           style={{
             width: "100%",
