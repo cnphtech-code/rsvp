@@ -821,12 +821,12 @@ function CoupleSection() {
           and a lifetime to celebrate together."
         </p>
         <img
-          src="https://images.unsplash.com/photo-1596457221755-b96bc3a6df18?w=390&h=480&fit=crop&auto=format"
+          src="/assets/hero.jpg"
           alt="Wedding couple embracing"
           style={{
             width: "100%",
             maxWidth: 340,
-            height: 400,
+            height: 500,
             objectFit: "cover",
             borderRadius: 20,
             marginTop: 36,
