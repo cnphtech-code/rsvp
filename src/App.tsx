@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import React from "react"
-import hero from "./assets/hero.jpg"
+import heroImage from "./assets/hero.jpg";
 
 // ── Countdown hook ──────────────────────────────────────────────────────────
 function useCountdown(target: Date) {
@@ -599,7 +599,7 @@ function Hero({ onOpen }: { onOpen: () => void }) {
               marginBottom: 0,
             }}
           >
-            Lestie Ann
+            Carlo
           </p>
           <div
             style={{
@@ -632,7 +632,7 @@ function Hero({ onOpen }: { onOpen: () => void }) {
               marginTop: 0,
             }}
           >
-            Carlo
+            Leslie Ann
           </p>
         </div>
 
@@ -822,7 +822,7 @@ function CoupleSection() {
           and a lifetime to celebrate together."
         </p>
         <img
-          src={hero}
+          src={heroImage}
           alt="Wedding couple embracing"
           style={{
             width: "100%",
