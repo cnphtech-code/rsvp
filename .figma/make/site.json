@@ -1,0 +1,10 @@
+{
+  "description": "Streamline your task management with a user-friendly platform that helps individuals and teams organize, prioritize, and execute projects efficiently.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
